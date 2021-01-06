@@ -18,7 +18,7 @@ import random
 config = configparser.ConfigParser()
 config.read("pokebot.cfg")
 
-TOKEN = config['telegram_bot_API']['API_TOKEN']
+TOKEN = "1562212562:AAF_ZoczAUcFFGg1yFDbsvBd6ukHg5yMRng"
 
 # Declare bot
 bot = telebot.TeleBot(TOKEN)
