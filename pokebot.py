@@ -21,7 +21,7 @@ config.read("pokebot.cfg")
 TOKEN = config['telegram_bot_API']['API_TOKEN']
 
 # Declare bot
-bot = telebot.TeleBot()
+bot = telebot.TeleBot(TOKEN)
 
 # Allow communication between functions here idk...
 global curPokemon
